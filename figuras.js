@@ -7,9 +7,17 @@ const perimetroCuadrado = ladoCuadrado * 4;
 console.log("El perimetro del cuadrado es de " + perimetroCuadrado + " centimetros")
 
 const areaCuadrado = ladoCuadrado * ladoCuadrado;
+
 console.log("El area del cuadrado es de " + areaCuadrado + " centimetros cuadrados")
 
 console.groupEnd()
+
+
+function perimetroCuadrad(lado) {
+  let rta = lado * 4
+  return console.log("El perimetro del cuadrado es de " + rta + " centimetros")
+}
+perimetroCuadrad(80);
 
 //Código para el triangulo
 console.group("Triangulo")

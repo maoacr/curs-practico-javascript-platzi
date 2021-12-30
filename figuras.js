@@ -19,6 +19,13 @@ function perimetroCuadrad(lado) {
 }
 perimetroCuadrad(80);
 
+function areaCuadrado(lado) {
+  let area = lado * lado;
+  return console.log("El area del cuadrado es de " + area + " centimetros cuadradoos")
+}
+
+areaCuadrado(5)
+
 //Código para el triangulo
 console.group("Triangulo")
 
